@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https://images.unsplash.com; style-src 'self' 'unsafe-inline'; script-src 'self'; frame-src https://www.google.com; base-uri 'self'; form-action 'self';"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>About Us | Kosile Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Kosile Hotel</h1>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <h2>About Kosile Hotel</h2>
+      <p>Where comfort, celebration, and hospitality come together.</p>
+    </section>
+
+    <!-- OUR STORY -->
+    <section class="service-detail reveal">
+      <div class="service-detail-image">
+        <img
+          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&q=80"
+          alt="Hotel lobby"
+        />
+      </div>
+      <div class="service-detail-text">
+        <h3>Our Story</h3>
+        <p>
+          Kosile Hotel was built to give guests more than just a place to sleep
+          — a place to feel welcomed. From cozy rooms to lively celebrations by
+          our pool and bar, every corner of the hotel is designed with our
+          guests in mind.
+        </p>
+        <p>
+          Whether you're here for a weekend getaway, a wedding reception, or a
+          night out with friends, our team is committed to making it memorable.
+        </p>
+      </div>
+    </section>
+
+    <!-- OUR VALUES -->
+    <section class="values-section reveal">
+      <h2>Our Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h4>Comfort</h4>
+          <p>Every room and space is designed for genuine relaxation.</p>
+        </div>
+        <div class="value-card">
+          <h4>Hospitality</h4>
+          <p>
+            Our staff treat every guest like family, from arrival to check-out.
+          </p>
+        </div>
+        <div class="value-card">
+          <h4>Quality</h4>
+          <p>
+            From our bar to our banquet halls, we hold every detail to a high
+            standard.
+          </p>
+        </div>
+        <div class="value-card">
+          <h4>Community</h4>
+          <p>We're proud to host the biggest moments in our guests' lives.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="cta-banner">
+      <h2>Come Experience It Yourself</h2>
+      <a href="booking.html" class="btn btn-primary">Book Now</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Kosile Hotel</h4>
+          <p>Comfort, celebration, and relaxation — all in one place.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Phone: 0800 000 0000</p>
+          <p>Email: info@Kosilehotel.com</p>
+        </div>
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <p>Kosile Hotel</p>
+          <p>Iyana Iyesi, Ota, Ogun State, Nigeria</p>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">WhatsApp</a></p>
+        </div>
+      </div>
+      <p class="footer-bottom">
+        &copy; 2026 Kosile Hotel. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON: href is filled in by script.js -->
+    <a
+      href="#"
+      id="whatsapp-float"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+      >💬</a
+    >
+
+    <!-- BACK TO TOP BUTTON: shown/hidden by script.js as you scroll -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https://images.unsplash.com; style-src 'self' 'unsafe-inline'; script-src 'self'; frame-src https://www.google.com; base-uri 'self'; form-action 'self';"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>Contact Us | Kosile Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Kosile Hotel</h1>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <h2>Get In Touch</h2>
+      <p>We'd love to hear from you.</p>
+    </section>
+
+    <!-- CONTACT DETAILS + MAP -->
+    <section class="contact-section reveal">
+      <div class="contact-details">
+        <h3>Contact Details</h3>
+
+        <div class="contact-item">
+          <strong>Phone</strong>
+          <p>0800 000 0000</p>
+        </div>
+
+        <div class="contact-item">
+          <strong>Email</strong>
+          <p>info@kosilehotel.com</p>
+        </div>
+
+        <div class="contact-item">
+          <strong>Address</strong>
+          <p>Kosile Hotel, Iyana Iyesi, Ota, Ogun State, Nigeria</p>
+        </div>
+
+        <div class="contact-item">
+          <strong>Message Us Instantly</strong>
+          <p>
+            <a
+              href="#"
+              id="contact-whatsapp-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Chat on WhatsApp</a
+            >
+            &nbsp;|&nbsp;
+            <a
+              href="https://instagram.com/yourhotelhandle"
+              target="_blank"
+              rel="noopener noreferrer"
+              >DM on Instagram</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps?q=Iyana+Iyesi,+Ota,+Ogun+State,+Nigeria&output=embed"
+          width="100%"
+          height="350"
+          style="border: 0; border-radius: 12px"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="cta-banner">
+      <h2>Ready to Book Your Stay?</h2>
+      <a href="booking.html" class="btn btn-primary">Book Now</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Kosile Hotel</h4>
+          <p>Comfort, celebration, and relaxation — all in one place.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Phone: 0800 000 0000</p>
+          <p>Email: info@kosilehotel.com</p>
+        </div>
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <p>Kosile Hotel</p>
+          <p>Iyana Iyesi, Ota, Ogun State, Nigeria</p>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">WhatsApp</a></p>
+        </div>
+      </div>
+      <p class="footer-bottom">
+        &copy; 2026 Kosile Hotel. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON: href is filled in by script.js -->
+    <a
+      href="#"
+      id="whatsapp-float"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+      >💬</a
+    >
+
+    <!-- BACK TO TOP BUTTON: shown/hidden by script.js as you scroll -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

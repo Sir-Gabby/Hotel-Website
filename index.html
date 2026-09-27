@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https://images.unsplash.com; style-src 'self' 'unsafe-inline'; script-src 'self'; frame-src https://www.google.com; base-uri 'self'; form-action 'self';"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>Kosile Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER: logo + navigation -->
+    <header>
+      <h1>Kosile Hotel</h1>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO: big background photo with overlay text -->
+    <section class="hero">
+      <div class="hero-overlay">
+        <h2>Celebrate. Relax. Stay in Comfort.</h2>
+        <p>
+          Rooms, reception halls, bar, games, and a pool — all under one roof.
+        </p>
+        <div class="hero-buttons">
+          <a href="booking.html" class="btn btn-primary">Book Now</a>
+          <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS STRIP: quick facts -->
+    <section class="stats reveal">
+      <div class="stat">
+        <h3>50+</h3>
+        <p>Comfortable Rooms</p>
+      </div>
+      <div class="stat">
+        <h3>5</h3>
+        <p>Event Halls</p>
+      </div>
+      <div class="stat">
+        <h3>24/7</h3>
+        <p>Bar & Pool Access</p>
+      </div>
+    </section>
+
+    <!-- WELCOME SECTION: intro + feature blurbs + image -->
+    <section class="welcome reveal">
+      <div class="welcome-text">
+        <h2>Welcome to Kosile Hotel</h2>
+        <p>
+          We offer a warm, modern stay for travelers, families, and event hosts
+          alike. Whatever brings you here, we're ready to make it memorable.
+        </p>
+
+        <div class="feature">
+          <h4>Comfort</h4>
+          <p>Clean, modern rooms designed for rest and relaxation.</p>
+        </div>
+        <div class="feature">
+          <h4>Celebrations</h4>
+          <p>Spacious halls perfect for weddings, parties, and receptions.</p>
+        </div>
+        <div class="feature">
+          <h4>Recreation</h4>
+          <p>Unwind at our bar, pool, or game room after a long day.</p>
+        </div>
+      </div>
+
+      <div class="welcome-image">
+        <img
+          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&q=80"
+          alt="Hotel lobby"
+        />
+      </div>
+    </section>
+
+    <!-- SERVICES SHOWCASE: image cards -->
+    <section class="services-showcase reveal">
+      <h2>Our Services</h2>
+
+      <div class="showcase-grid">
+        <div class="showcase-row-top">
+          <div
+            class="showcase-card showcase-card-large"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=700&q=80&quot;);
+            "
+          >
+            <div class="showcase-label">Rooms</div>
+          </div>
+          <div
+            class="showcase-card showcase-card-large"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=700&q=80&quot;);
+            "
+          >
+            <div class="showcase-label">Reception Halls</div>
+          </div>
+        </div>
+
+        <div class="showcase-row-bottom">
+          <div
+            class="showcase-card"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=500&q=80&quot;);
+            "
+          >
+            <div class="showcase-label">Bar</div>
+          </div>
+          <div
+            class="showcase-card"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1585504198199-20277593b94f?w=500&q=80&quot;);
+            "
+          >
+            <div class="showcase-label">Games</div>
+          </div>
+          <div
+            class="showcase-card"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=500&q=80&quot;);
+            "
+          >
+            <div class="showcase-label">Swimming Pool</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials reveal">
+      <h2>What Our Guests Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>
+            "Our reception hall booking was seamless, and the staff made our
+            wedding day stress-free."
+          </p>
+          <span>— Funmi A.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            "Clean rooms, great pool, and the bar has the best atmosphere in
+            town."
+          </p>
+          <span>— Chidi O.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"Perfect spot for a weekend getaway. We'll definitely be back."</p>
+          <span>— Grace E.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="cta-banner">
+      <h2>Ready to Book Your Stay?</h2>
+      <a href="booking.html" class="btn btn-primary">Book Now</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Kosile Hotel</h4>
+          <p>Comfort, celebration, and relaxation — all in one place.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Phone: 0800 000 0000</p>
+          <p>Email: info@kosilehotel.com</p>
+        </div>
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <p>Kosile Hotel</p>
+          <p>Iyana Iyesi, Ota, Ogun State, Nigeria</p>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">WhatsApp</a></p>
+        </div>
+      </div>
+      <p class="footer-bottom">
+        &copy; 2026 Kosile Hotel. All rights reserved.
+      </p>
+    </footer>
+    <!-- FLOATING WHATSAPP BUTTON: href is filled in by script.js -->
+    <a
+      href="#"
+      id="whatsapp-float"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+      >💬</a
+    >
+
+    <!-- BACK TO TOP BUTTON: shown/hidden by script.js as you scroll -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
